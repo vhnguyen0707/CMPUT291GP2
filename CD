@@ -1,0 +1,64 @@
+Phase 1:
+
+	yuqian:
+		terms.txt
+	
+	
+	
+	baojin:
+		dates.txt
+	
+	
+	
+	nguyen:
+		emails.txt
+		recs.txt
+
+Phase 2:
+
+	yuqian:
+		terms.txt  B+tree
+		recs.txt   Hash
+		
+		
+	baojin:
+		dates.txt  B+tree
+		
+		
+	nguyen:
+		emails.txt B+tree
+
+
+Phase 3:
+
+parse command input by indentifing command term and their conditions
+run one or more functions base on the command input
+one or more table will be returned
+merge tables so that only rows that exist in all tables will be displayed in the final table
+
+	yuqian:
+		main - main loop, merge
+		subj
+		from
+		to
+		
+		
+	baojin:
+		date
+		confidential
+		
+		
+	nguyen:
+		cc
+		bcc	
+
+
+Testing:
+	We each will test our own modules first on sigular commands
+
+	After main is finished by yuqian, we can test the more complicated
+	plural commands
+
+Submission:
+	Report.pdf
+	README.txt
