@@ -5,7 +5,7 @@ Phase 1:
 	
 	
 	
-	baojin:
+	baijin:
 		dates.txt
 	
 	
@@ -21,7 +21,7 @@ Phase 2:
 		recs.txt   Hash
 		
 		
-	baojin:
+	baijin:
 		dates.txt  B+tree
 		
 		
@@ -31,7 +31,7 @@ Phase 2:
 
 Phase 3:
 
-parse command input by indentifing command term and their conditions
+parse command input by identifing command term and their conditions
 run one or more functions base on the command input
 one or more table will be returned
 merge tables so that only rows that exist in all tables will be displayed in the final table
@@ -43,7 +43,7 @@ merge tables so that only rows that exist in all tables will be displayed in the
 		to
 		
 		
-	baojin:
+	baijin:
 		date
 		confidential
 		
